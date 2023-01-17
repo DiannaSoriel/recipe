@@ -1,0 +1,48 @@
+.example img {
+    width: 600px;
+ }
+ figure.side_image {
+    display: inline-block;
+  }
+ p.side_text {
+    display: inline-block;
+    width: 300px;
+    margin-left: 20px;
+    vertical-align: top;
+  }
+  .flex {
+    display: flex; /*横並び*/
+    width:100%;
+  }
+  .flex .image {
+    width: 640px; /*画像サイズ指定*/
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .flex .right {
+    margin: 5px 20px 10px 30px;
+    padding: 5px;
+  }
+  .flex .rank {
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+    text-align:center;
+  }
+  .flex .title {
+    margin: 0;
+    padding: 0;
+    color: royalblue;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .flex .text {
+    margin: 8px 10px 10px;
+    padding: 0;
+    font-size: 22px;
+  }
+.resizeimage img { width: 50%; }
